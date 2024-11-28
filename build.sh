@@ -1,4 +1,3 @@
-git clone --single-branch --depth 1 https://github.com/tair-opensource/RedisShake.git
+wget https://github.com/tair-opensource/RedisShake/releases/download/v4.2.2/redis-shake-linux-amd64.tar.gz
 
-rm -f RedisShake/Dockerfile && cp Dockerfile RedisShake/ && cd RedisShake/
-
+tar -zxvf redis-shake-linux-amd64.tar.gz
